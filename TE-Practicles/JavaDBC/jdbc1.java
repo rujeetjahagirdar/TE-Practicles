@@ -11,7 +11,7 @@ public class jdbc1 {
 		while(rs.next()) {
 			System.out.println(rs.getInt(1)+"\t"+rs.getString(2));
 		}
-		/*st.executeUpdate("insert into rjtable values(6,'nisha')");
+		/*st.executeUpdate("insert into rjtable values(6,'alderson')");
 		System.out.println("Inserted");
 		ResultSet rst=st.executeQuery("select * from rjtable");
 		while(rst.next()) {
